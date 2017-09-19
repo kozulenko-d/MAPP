@@ -1,0 +1,122 @@
+nav {
+	padding: 24px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 100;
+	top: 40px;
+	left: 40px;
+	right: 40px;/*for fixed width for fixed element*/
+	p {
+		color: #1ab798;
+		font-family: $fr;
+		font-size: 30px;
+		font-weight: 600;
+		display: inline-block;
+	}
+	ul {
+		float: right;
+		font-size: 0;
+		li {
+			display: inline-block;
+			list-style-type: none;
+			font-size: 18px;
+			font-family: $fos;
+			font-weight: bold;
+			margin: 8px 16px;
+			a {
+				text-decoration: none;
+				color: #7e7c7e;
+				text-transform: uppercase;
+				transition: all ease .4s;
+				&:hover {
+					color: #282528;
+					text-shadow: 0 0 .5px #1ab798;
+				}
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	img {
+		position: absolute;
+		top: 40px;
+		left: 37px;
+	}
+}
+.head-section {
+	background-image: url(../images/headerBG.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	span {
+		font-family: $fos;
+		color: #fff;
+		font-size: 22px;
+	}
+	.side-list {
+		margin: 90px 0 70px 0;
+		li {
+			/*list-style-position: inside; – to avoid adding padding-left if there would be list-style-type(:square for example) to make them inside the wrapper*/
+			list-style-type: none;
+			color: #fff;
+			margin-bottom: 10px;
+			font-family: $fos;
+			font-size: 16px;
+			&::before {
+				content: '>';
+				padding-right: 8px;
+				transform: scale(0.7,1.6);
+				display: inline-block;
+			}
+		}
+	}
+	button {
+		cursor: pointer;
+		border: 0;
+		border-radius: 4px;
+		color: #fff;
+		background-color: #17d0ac;
+		font-family: $fos;
+		font-size: 20px;
+		padding: 9px 36px 7px 20px;
+		margin-bottom: 120px;
+		img {
+			float: left;
+			margin-right: 15px;
+			width: 31px;
+		}
+	}
+	img#bigphone {
+		position: absolute;
+		bottom: -126px;
+		right: 113px;
+		z-index: 5;
+		width: 390px;
+	}
+	img#smallphone {
+		position: absolute;
+		bottom: -127px;
+		right: 220px;
+		z-index: 11;
+		width: 355px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+/*base scss file*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+$fr: Raleway, Arial, sans-serif;
+$fos: 'Open Sans', Arial, sans-serif;
+$w: 1040;
+
+@import 'header';
+
+.wrapper {
+	max-width: $w +px;
+	margin: 0 auto;
+	&::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+h1 {
+	font-family: $fr;
+	font-size: 42px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: $w/4.4 +px;
+}
