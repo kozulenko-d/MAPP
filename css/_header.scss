@@ -25,12 +25,13 @@ nav {
 			margin: 8px 16px;
 			a {
 				text-decoration: none;
-				color: #7e7c7e;
+				color: #fff;
 				text-transform: uppercase;
 				transition: all ease .4s;
+				text-shadow: 0 0 4px #7e7c7e;
 				&:hover {
-					color: #282528;
-					text-shadow: 0 0 .5px #1ab798;
+					color: #1ab798;
+					text-shadow: 0 0 .5px #282528;
 				}
 			}
 			&:last-child {
@@ -81,10 +82,14 @@ nav {
 		font-size: 20px;
 		padding: 9px 36px 7px 20px;
 		margin-bottom: 120px;
+		transition: $t4;
 		img {
 			float: left;
 			margin-right: 15px;
 			width: 31px;
+		}
+		&:hover {
+			background-color: #07c09c;
 		}
 	}
 	img#bigphone {
@@ -102,21 +107,3 @@ nav {
 		width: 355px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -43,44 +43,45 @@ nav ul li {
 /* line 26, _header.scss */
 nav ul li a {
   text-decoration: none;
-  color: #7e7c7e;
+  color: #fff;
   text-transform: uppercase;
   transition: all ease .4s;
+  text-shadow: 0 0 4px #7e7c7e;
 }
-/* line 31, _header.scss */
+/* line 32, _header.scss */
 nav ul li a:hover {
-  color: #282528;
-  text-shadow: 0 0 .5px #1ab798;
+  color: #1ab798;
+  text-shadow: 0 0 .5px #282528;
 }
-/* line 36, _header.scss */
+/* line 37, _header.scss */
 nav ul li:last-child {
   margin-right: 0;
 }
-/* line 41, _header.scss */
+/* line 42, _header.scss */
 nav img {
   position: absolute;
   top: 40px;
   left: 37px;
 }
 
-/* line 47, _header.scss */
+/* line 48, _header.scss */
 .head-section {
   background-image: url(../images/headerBG.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
-/* line 52, _header.scss */
+/* line 53, _header.scss */
 .head-section span {
   font-family: "Open Sans", Arial, sans-serif;
   color: #fff;
   font-size: 22px;
 }
-/* line 57, _header.scss */
+/* line 58, _header.scss */
 .head-section .side-list {
   margin: 90px 0 70px 0;
 }
-/* line 59, _header.scss */
+/* line 60, _header.scss */
 .head-section .side-list li {
   /*list-style-position: inside; – to avoid adding padding-left if there would be list-style-type(:square for example) to make them inside the wrapper*/
   list-style-type: none;
@@ -89,14 +90,14 @@ nav img {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
 }
-/* line 66, _header.scss */
+/* line 67, _header.scss */
 .head-section .side-list li::before {
   content: '>';
   padding-right: 8px;
   transform: scale(0.7, 1.6);
   display: inline-block;
 }
-/* line 74, _header.scss */
+/* line 75, _header.scss */
 .head-section button {
   cursor: pointer;
   border: 0;
@@ -107,14 +108,19 @@ nav img {
   font-size: 20px;
   padding: 9px 36px 7px 20px;
   margin-bottom: 120px;
+  transition: all ease 0.4s;
 }
-/* line 84, _header.scss */
+/* line 86, _header.scss */
 .head-section button img {
   float: left;
   margin-right: 15px;
   width: 31px;
 }
-/* line 90, _header.scss */
+/* line 91, _header.scss */
+.head-section button:hover {
+  background-color: #07c09c;
+}
+/* line 95, _header.scss */
 .head-section img#bigphone {
   position: absolute;
   bottom: -126px;
@@ -122,7 +128,7 @@ nav img {
   z-index: 5;
   width: 390px;
 }
-/* line 97, _header.scss */
+/* line 102, _header.scss */
 .head-section img#smallphone {
   position: absolute;
   bottom: -127px;
@@ -131,19 +137,19 @@ nav img {
   width: 355px;
 }
 
-/* line 13, style.scss */
+/* line 14, style.scss */
 .wrapper {
   max-width: 1040px;
   margin: 0 auto;
 }
-/* line 16, style.scss */
+/* line 17, style.scss */
 .wrapper::after {
   content: '';
   display: block;
   clear: both;
 }
 
-/* line 22, style.scss */
+/* line 23, style.scss */
 h1 {
   font-family: Raleway, Arial, sans-serif;
   font-size: 42px;
@@ -152,7 +158,7 @@ h1 {
   padding-top: 236.36364px;
 }
 
-/* line 29, style.scss */
+/* line 30, style.scss */
 h2 {
   font-family: Raleway, Arial, sans-serif;
   font-size: 28px;
@@ -161,7 +167,7 @@ h2 {
   display: inline-block;
   position: relative;
 }
-/* line 36, style.scss */
+/* line 37, style.scss */
 h2::before {
   content: '';
   display: inline-block;
@@ -171,7 +177,7 @@ h2::before {
   bottom: 10px;
   margin-right: 15px;
 }
-/* line 45, style.scss */
+/* line 46, style.scss */
 h2::after {
   content: '';
   display: inline-block;
@@ -182,32 +188,32 @@ h2::after {
   margin-left: 15px;
 }
 
-/* line 55, style.scss */
+/* line 56, style.scss */
 .feature-section {
   padding: 120px 0 50px;
   text-align: center;
 }
-/* line 58, style.scss */
+/* line 59, style.scss */
 .feature-section p {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
   width: 82%;
   margin: 60px auto 60px;
 }
-/* line 64, style.scss */
+/* line 65, style.scss */
 .feature-section img {
   width: 32%;
   margin: 0 auto;
 }
 
-/* line 69, style.scss */
+/* line 70, style.scss */
 .h2_decorate {
   height: 20px;
   width: 160px;
   overflow: hidden;
   margin: 10px auto 0;
 }
-/* line 74, style.scss */
+/* line 75, style.scss */
 .h2_decorate div {
   border: 2px solid #000;
   display: inline-block;
@@ -218,7 +224,7 @@ h2::after {
   border-top: 0;
   transform: skew(-25deg);
 }
-/* line 84, style.scss */
+/* line 85, style.scss */
 .h2_decorate div:nth-child(2) {
   margin-top: 10px;
   border: 2px solid #000;
@@ -227,39 +233,231 @@ h2::after {
   border-bottom: 0;
 }
 
-/* line 92, style.scss */
+/* line 93, style.scss */
 .feature-section__left {
   float: left;
   width: 34%;
 }
 
-/* line 96, style.scss */
+/* line 97, style.scss */
 .feature-section__right {
   float: right;
   width: 34%;
 }
 
-/* line 100, style.scss */
+/* line 101, style.scss */
 .feature-box {
   margin: 60px auto;
   text-align: left;
 }
-/* line 103, style.scss */
+/* line 104, style.scss */
 .feature-box img {
   width: 36px;
   float: left;
   margin: 0 50px 55px 0;
 }
-/* line 108, style.scss */
+/* line 109, style.scss */
 .feature-box h5 {
   font-family: Raleway, Arial, sans-serif;
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 15px;
 }
-/* line 114, style.scss */
+/* line 115, style.scss */
 .feature-box span {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 1.8;
+}
+
+/* line 121, style.scss */
+.video-section {
+  background-color: #31d4e7;
+  padding: 70px 0;
+  position: relative;
+}
+/* line 125, style.scss */
+.video-section .video-section__left {
+  width: 53%;
+  display: inline-block;
+}
+/* line 129, style.scss */
+.video-section h2 {
+  color: #000;
+}
+/* line 131, style.scss */
+.video-section h2::after, .video-section h2::before {
+  display: none;
+}
+/* line 135, style.scss */
+.video-section p {
+  color: #fff;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  /*width: 53%;*/
+  line-height: 1.5;
+  margin: 15px 0;
+}
+/* line 143, style.scss */
+.video-section ul {
+  font-size: 0;
+  width: 53%;
+}
+/* line 146, style.scss */
+.video-section ul li {
+  display: inline-block;
+  list-style-type: none;
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  background-color: #0098cd;
+  margin: 0 10px;
+  transition: all ease 0.4s;
+}
+/* line 155, style.scss */
+.video-section ul li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 64px;
+  border-radius: inherit;
+  text-align: center;
+}
+/* line 163, style.scss */
+.video-section ul li a img {
+  vertical-align: middle;
+}
+/* line 167, style.scss */
+.video-section ul li:first-child {
+  margin-left: 0;
+}
+/* line 170, style.scss */
+.video-section ul li:hover {
+  background-color: #000;
+}
+/* line 175, style.scss */
+.video-section iframe {
+  width: 46%;
+  float: right;
+  min-height: 290px;
+}
+
+/* line 181, style.scss */
+.team-section {
+  padding: 100px 0 60px;
+  text-align: center;
+}
+/* line 184, style.scss */
+.team-section p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  width: 80%;
+  margin: 60px auto 60px;
+}
+
+/* line 191, style.scss */
+.team-section-row {
+  font-size: 0;
+  margin: 0 -1%;
+}
+
+/* line 195, style.scss */
+.team-box {
+  width: 23%;
+  display: inline-block;
+  margin: 0 1%;
+  position: relative;
+}
+/* line 200, style.scss */
+.team-box .hover-team-box {
+  display: none;
+  background-color: rgba(50, 191, 163, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 50px;
+  padding: 10px 4px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #fff;
+}
+/* line 210, style.scss */
+.team-box .hover-team-box:hover {
+  display: block;
+}
+/* line 213, style.scss */
+.team-box .hover-team-box:hover + h5 {
+  color: #0eb493;
+}
+/* line 216, style.scss */
+.team-box .hover-team-box h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 220, style.scss */
+.team-box .hover-team-box p {
+  margin: 10px auto;
+}
+/* line 223, style.scss */
+.team-box .hover-team-box ul {
+  display: inline-block;
+  position: relative;
+  top: 40px;
+}
+/* line 227, style.scss */
+.team-box .hover-team-box ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 0 2px;
+  background-color: rgba(13, 112, 94, 0.9);
+  transition: all ease 0.4s;
+}
+/* line 235, style.scss */
+.team-box .hover-team-box ul li a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 60px;
+  text-align: center;
+}
+/* line 242, style.scss */
+.team-box .hover-team-box ul li a i {
+  font-size: 26px;
+  color: #fff;
+}
+/* line 247, style.scss */
+.team-box .hover-team-box ul li:hover {
+  background-color: #016452;
+}
+/* line 253, style.scss */
+.team-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 256, style.scss */
+.team-box img:hover + .hover-team-box {
+  display: block;
+}
+/* line 259, style.scss */
+.team-box img:hover + h5 {
+  color: #0eb493;
+}
+/* line 263, style.scss */
+.team-box h5 {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+/* line 267, style.scss */
+.team-box span {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 13px;
+}
+
+/* line 272, style.scss */
+.customers-say-section {
+  padding: 100px 0 50px;
+  text-align: center;
 }
