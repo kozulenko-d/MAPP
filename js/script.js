@@ -39,12 +39,31 @@ f4.onclick = function() {
 
 function autoSlider() {
 	timer = setTimeout(function() {
-		// var line = document.getElementById('slider');
-		
 		left = left - frames[0].clientWidth;
 		if (left < -frames[0].clientWidth*(frames.length - 1)) {
 			left = 0;
 			clearTimeout(timer);
+		}
+		if (left >= 0) {
+			f1.style.backgroundColor = '#1ab798';
+			f2.style.backgroundColor = '#d4d3d4';
+			f3.style.backgroundColor = '#d4d3d4';
+			f4.style.backgroundColor = '#d4d3d4';
+		} else if (left >= -(frames[0].clientWidth)) {
+			f2.style.backgroundColor = '#1ab798';
+			f1.style.backgroundColor = '#d4d3d4';
+			f3.style.backgroundColor = '#d4d3d4';
+			f4.style.backgroundColor = '#d4d3d4';
+		} else if (left >= -(frames[0].clientWidth * 2)) {
+			f3.style.backgroundColor = '#1ab798';
+			f2.style.backgroundColor = '#d4d3d4';
+			f1.style.backgroundColor = '#d4d3d4';
+			f4.style.backgroundColor = '#d4d3d4';
+		} else if (left >= -(frames[0].clientWidth * 3)) {
+			f4.style.backgroundColor = '#1ab798';
+			f2.style.backgroundColor = '#d4d3d4';
+			f3.style.backgroundColor = '#d4d3d4';
+			f1.style.backgroundColor = '#d4d3d4';
 		}
 		line.style.left = left + 'px';
 		autoSlider();
