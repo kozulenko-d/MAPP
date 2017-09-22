@@ -294,16 +294,15 @@ h2::after {
   color: #fff;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
-  /*width: 53%;*/
   line-height: 1.5;
   margin: 15px 0;
 }
-/* line 143, style.scss */
+/* line 142, style.scss */
 .video-section ul {
   font-size: 0;
   width: 53%;
 }
-/* line 146, style.scss */
+/* line 145, style.scss */
 .video-section ul li {
   display: inline-block;
   list-style-type: none;
@@ -314,7 +313,7 @@ h2::after {
   margin: 0 10px;
   transition: all ease 0.4s;
 }
-/* line 155, style.scss */
+/* line 154, style.scss */
 .video-section ul li a {
   text-decoration: none;
   width: 100%;
@@ -324,31 +323,31 @@ h2::after {
   border-radius: inherit;
   text-align: center;
 }
-/* line 163, style.scss */
+/* line 162, style.scss */
 .video-section ul li a img {
   vertical-align: middle;
 }
-/* line 167, style.scss */
+/* line 166, style.scss */
 .video-section ul li:first-child {
   margin-left: 0;
 }
-/* line 170, style.scss */
+/* line 169, style.scss */
 .video-section ul li:hover {
   background-color: #000;
 }
-/* line 175, style.scss */
+/* line 174, style.scss */
 .video-section iframe {
   width: 46%;
   float: right;
   min-height: 290px;
 }
 
-/* line 181, style.scss */
+/* line 180, style.scss */
 .team-section {
   padding: 100px 0 60px;
   text-align: center;
 }
-/* line 184, style.scss */
+/* line 183, style.scss */
 .team-section p {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
@@ -356,20 +355,20 @@ h2::after {
   margin: 60px auto 60px;
 }
 
-/* line 191, style.scss */
+/* line 190, style.scss */
 .team-section-row {
   font-size: 0;
   margin: 0 -1%;
 }
 
-/* line 195, style.scss */
+/* line 194, style.scss */
 .team-box {
   width: 23%;
   display: inline-block;
   margin: 0 1%;
   position: relative;
 }
-/* line 200, style.scss */
+/* line 199, style.scss */
 .team-box .hover-team-box {
   display: none;
   background-color: rgba(50, 191, 163, 0.9);
@@ -381,30 +380,30 @@ h2::after {
   font-family: "Open Sans", Arial, sans-serif;
   color: #fff;
 }
-/* line 210, style.scss */
+/* line 209, style.scss */
 .team-box .hover-team-box:hover {
   display: block;
 }
-/* line 213, style.scss */
+/* line 212, style.scss */
 .team-box .hover-team-box:hover + h5 {
   color: #0eb493;
 }
-/* line 216, style.scss */
+/* line 215, style.scss */
 .team-box .hover-team-box h6 {
   font-size: 16px;
   font-weight: 600;
 }
-/* line 220, style.scss */
+/* line 219, style.scss */
 .team-box .hover-team-box p {
   margin: 10px auto;
 }
-/* line 223, style.scss */
+/* line 222, style.scss */
 .team-box .hover-team-box ul {
   display: inline-block;
   position: relative;
   top: 40px;
 }
-/* line 227, style.scss */
+/* line 226, style.scss */
 .team-box .hover-team-box ul li {
   list-style-type: none;
   display: inline-block;
@@ -414,7 +413,7 @@ h2::after {
   background-color: rgba(13, 112, 94, 0.9);
   transition: all ease 0.4s;
 }
-/* line 235, style.scss */
+/* line 234, style.scss */
 .team-box .hover-team-box ul li a {
   text-decoration: none;
   width: 100%;
@@ -423,53 +422,53 @@ h2::after {
   line-height: 60px;
   text-align: center;
 }
-/* line 242, style.scss */
+/* line 241, style.scss */
 .team-box .hover-team-box ul li a i {
   font-size: 26px;
   color: #fff;
 }
-/* line 247, style.scss */
+/* line 246, style.scss */
 .team-box .hover-team-box ul li:hover {
   background-color: #016452;
 }
-/* line 253, style.scss */
+/* line 252, style.scss */
 .team-box img {
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 256, style.scss */
+/* line 255, style.scss */
 .team-box img:hover + .hover-team-box {
   display: block;
 }
-/* line 259, style.scss */
+/* line 258, style.scss */
 .team-box img:hover + h5 {
   color: #0eb493;
 }
-/* line 263, style.scss */
+/* line 262, style.scss */
 .team-box h5 {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
 }
-/* line 267, style.scss */
+/* line 266, style.scss */
 .team-box span {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 13px;
 }
 
-/* line 272, style.scss */
+/* line 271, style.scss */
 .customers-say-section {
   padding: 100px 0 50px;
   text-align: center;
 }
 
-/* line 276, style.scss */
+/* line 275, style.scss */
 .slider-window {
   width: 90%;
   margin: 40px auto;
   overflow: hidden;
   position: relative;
 }
-/* line 281, style.scss */
+/* line 280, style.scss */
 .slider-window ul {
   font-size: 0;
   width: 400%;
@@ -477,34 +476,34 @@ h2::after {
   left: 0;
   transition: all ease .7s;
 }
-/* line 287, style.scss */
+/* line 286, style.scss */
 .slider-window ul li {
-  display: inline-block;
+  float: left;
   list-style-type: none;
   width: 25%;
 }
-/* line 291, style.scss */
+/* line 290, style.scss */
 .slider-window ul li .slide-frame {
   text-align: center;
   font-family: "Open Sans", Arial, sans-serif;
   padding: 30px 0;
 }
-/* line 295, style.scss */
+/* line 294, style.scss */
 .slider-window ul li .slide-frame img {
   border-radius: 50%;
 }
-/* line 298, style.scss */
+/* line 297, style.scss */
 .slider-window ul li .slide-frame h6 {
   text-transform: capitalize;
   font-size: 16px;
   margin: 20px 0 5px;
 }
-/* line 303, style.scss */
+/* line 302, style.scss */
 .slider-window ul li .slide-frame span {
   color: #ccc;
   font-size: 12px;
 }
-/* line 307, style.scss */
+/* line 306, style.scss */
 .slider-window ul li .slide-frame blockquote {
   line-height: 1.6;
   text-indent: 60px;
@@ -514,7 +513,7 @@ h2::after {
   padding-left: 60px;
   position: relative;
 }
-/* line 315, style.scss */
+/* line 314, style.scss */
 .slider-window ul li .slide-frame blockquote::before {
   content: '\201c';
   display: block;
@@ -527,11 +526,11 @@ h2::after {
   color: #efefef;
 }
 
-/* line 331, style.scss */
+/* line 330, style.scss */
 #frames-points {
   font-size: 0;
 }
-/* line 333, style.scss */
+/* line 332, style.scss */
 #frames-points li {
   display: inline-block;
   background-color: #d4d3d4;
@@ -541,6 +540,7 @@ h2::after {
   border-radius: 50%;
   margin-right: 7px;
   cursor: pointer;
+  transition: all ease .7s;
 }
 /* line 342, style.scss */
 #frames-points li:first-child {
@@ -549,4 +549,168 @@ h2::after {
 /* line 345, style.scss */
 #frames-points li:last-child {
   margin-right: 0;
+}
+
+/* line 1, _footer.scss */
+.contacts-section {
+  background-image: url(../images/footerBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 50px;
+}
+/* line 7, _footer.scss */
+.contacts-section h2 {
+  color: #fff;
+}
+/* line 10, _footer.scss */
+.contacts-section .h2_decorate {
+  margin-bottom: 40px;
+}
+/* line 12, _footer.scss */
+.contacts-section .h2_decorate div {
+  border-color: #fff;
+}
+/* line 16, _footer.scss */
+.contacts-section hr {
+  margin-top: 60px;
+  opacity: .3;
+}
+/* line 20, _footer.scss */
+.contacts-section .last-line {
+  color: #949494;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  padding: 30px 0;
+  text-align: left;
+}
+/* line 27, _footer.scss */
+.contacts-section .last-line span:last-child {
+  float: right;
+}
+
+/* line 33, _footer.scss */
+.contact-data {
+  width: 48%;
+  height: 20px;
+  display: inline-block;
+  text-align: left;
+  color: #fff;
+  float: left;
+}
+/* line 40, _footer.scss */
+.contact-data p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+}
+/* line 44, _footer.scss */
+.contact-data span {
+  font-size: 14px;
+  font-family: Raleway, Arial, sans-serif;
+  color: #8d8d8d;
+  display: inline-block;
+  width: 85%;
+  margin: 5px 0 40px;
+  line-height: 1.4;
+}
+/* line 53, _footer.scss */
+.contact-data ul {
+  font-size: 0;
+  margin-bottom: 30px;
+}
+/* line 56, _footer.scss */
+.contact-data ul li {
+  list-style-type: none;
+  display: inline-block;
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  background-color: #3ec2f3;
+  margin-right: 15px;
+}
+/* line 64, _footer.scss */
+.contact-data ul li:first-child {
+  background-color: #3b5997;
+}
+/* line 67, _footer.scss */
+.contact-data ul li:last-child {
+  background-color: #e44c41;
+}
+/* line 70, _footer.scss */
+.contact-data ul li a {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  border-radius: inherit;
+  display: block;
+  text-align: center;
+  line-height: 60px;
+}
+/* line 79, _footer.scss */
+.contact-data ul li a i {
+  font-size: 24px;
+  color: #fff;
+}
+/* line 86, _footer.scss */
+.contact-data .catch-us {
+  text-decoration: none;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #bface2;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* line 94, _footer.scss */
+.contact-area {
+  width: 47%;
+  float: right;
+  text-align: left;
+}
+/* line 98, _footer.scss */
+.contact-area form {
+  width: 100%;
+}
+/* line 100, _footer.scss */
+.contact-area form input {
+  width: 46%;
+  padding: 10px;
+  border: 0;
+  border-radius: 2px;
+  margin-bottom: 8%;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+/* line 107, _footer.scss */
+.contact-area form input:nth-child(2) {
+  float: right;
+  display: block;
+}
+/* line 112, _footer.scss */
+.contact-area form textarea {
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  margin-bottom: 8%;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+/* line 120, _footer.scss */
+.contact-area form button {
+  float: right;
+  background-color: #31d4e7;
+  width: 170px;
+  border: 0;
+  text-transform: uppercase;
+  color: #fff;
+  height: 50px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 22px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* line 133, _footer.scss */
+.contact-area form::after {
+  content: '';
+  clear: both;
+  display: block;
 }
