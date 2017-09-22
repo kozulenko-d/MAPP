@@ -461,3 +461,92 @@ h2::after {
   padding: 100px 0 50px;
   text-align: center;
 }
+
+/* line 276, style.scss */
+.slider-window {
+  width: 90%;
+  margin: 40px auto;
+  overflow: hidden;
+  position: relative;
+}
+/* line 281, style.scss */
+.slider-window ul {
+  font-size: 0;
+  width: 400%;
+  position: relative;
+  left: 0;
+  transition: all ease .7s;
+}
+/* line 287, style.scss */
+.slider-window ul li {
+  display: inline-block;
+  list-style-type: none;
+  width: 25%;
+}
+/* line 291, style.scss */
+.slider-window ul li .slide-frame {
+  text-align: center;
+  font-family: "Open Sans", Arial, sans-serif;
+  padding: 30px 0;
+}
+/* line 295, style.scss */
+.slider-window ul li .slide-frame img {
+  border-radius: 50%;
+}
+/* line 298, style.scss */
+.slider-window ul li .slide-frame h6 {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 20px 0 5px;
+}
+/* line 303, style.scss */
+.slider-window ul li .slide-frame span {
+  color: #ccc;
+  font-size: 12px;
+}
+/* line 307, style.scss */
+.slider-window ul li .slide-frame blockquote {
+  line-height: 1.6;
+  text-indent: 60px;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 40px;
+  padding-left: 60px;
+  position: relative;
+}
+/* line 315, style.scss */
+.slider-window ul li .slide-frame blockquote::before {
+  content: '\201c';
+  display: block;
+  position: absolute;
+  font-size: 120px;
+  font-family: 'Times New Roman', serif;
+  top: -60px;
+  left: -60px;
+  transform: scaleY(1.2);
+  color: #efefef;
+}
+
+/* line 331, style.scss */
+#frames-points {
+  font-size: 0;
+}
+/* line 333, style.scss */
+#frames-points li {
+  display: inline-block;
+  background-color: #d4d3d4;
+  list-style-type: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 7px;
+  cursor: pointer;
+}
+/* line 342, style.scss */
+#frames-points li:first-child {
+  background-color: #1ab798;
+}
+/* line 345, style.scss */
+#frames-points li:last-child {
+  margin-right: 0;
+}
