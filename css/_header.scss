@@ -20,7 +20,6 @@ nav {
 			display: inline-block;
 			list-style-type: none;
 			font-size: 18px;
-			font-family: $fos;
 			font-weight: bold;
 			margin: 8px 16px;
 			a {
@@ -51,7 +50,6 @@ nav {
 	background-repeat: no-repeat;
 	position: relative;
 	span {
-		font-family: $fos;
 		color: #fff;
 		font-size: 22px;
 	}
@@ -62,7 +60,6 @@ nav {
 			list-style-type: none;
 			color: #fff;
 			margin-bottom: 10px;
-			font-family: $fos;
 			font-size: 16px;
 			&::before {
 				content: '>';
@@ -78,7 +75,6 @@ nav {
 		border-radius: 4px;
 		color: #fff;
 		background-color: #17d0ac;
-		font-family: $fos;
 		font-size: 20px;
 		padding: 9px 36px 7px 20px;
 		margin-bottom: 120px;

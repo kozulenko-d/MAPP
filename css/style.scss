@@ -3,9 +3,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 $fr: Raleway, Arial, sans-serif;
-$fos: 'Open Sans', Arial, sans-serif;
 $t4 : all ease .4s;
 $w: 1040;
 
@@ -57,7 +57,6 @@ h2 {
 	padding: 120px 0 50px;
 	text-align: center;
 	p {
-		font-family: $fos;
 		font-size: 16px;
 		width: 82%;
 		margin: 60px auto 60px;
@@ -113,7 +112,6 @@ h2 {
 		margin-bottom: 15px;
 	}
 	span {
-		font-family: $fos;
 		font-size: 13px;
 		line-height: 1.8;
 	}
@@ -134,7 +132,6 @@ h2 {
 	}
 	p {
 		color: #fff;
-		font-family: $fos;
 		font-size: 16px;
 		line-height: 1.5;
 		margin: 15px 0;
@@ -181,7 +178,6 @@ h2 {
 	padding: 100px 0 60px;
 	text-align: center;
 	p {
-		font-family: $fos;
 		font-size: 14px;
 		width: 80%;
 		margin: 60px auto 60px;
@@ -204,7 +200,6 @@ h2 {
 		left: 0;
 		bottom: 50px;
 		padding: 10px 4px;
-		font-family: $fos;
 		color: #fff;
 		&:hover {
 			display: block;
@@ -260,11 +255,9 @@ h2 {
 		}
 	}
 	h5 {
-		font-family: $fos;
 		font-size: 16px;
 	}
 	span {
-		font-family: $fos;
 		font-size: 13px;
 	}
 }
@@ -289,7 +282,6 @@ h2 {
 			width: 25%;
 			.slide-frame {
 				text-align: center;
-				font-family: $fos;
 				padding: 30px 0;
 				img {
 					border-radius: 50%;
@@ -348,20 +340,3 @@ h2 {
 	}
 }
 @import 'footer';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

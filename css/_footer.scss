@@ -19,7 +19,6 @@
 	}
 	.last-line {
 		color: #949494;
-		font-family: $fos;
 		font-size: 14px;
 		padding: 30px 0;
 		text-align: left;
@@ -38,7 +37,6 @@
 	color: #fff;
 	float: left;
 	p {
-		font-family: $fos;
 		font-size: 24px;
 	}
 	span {
@@ -85,7 +83,6 @@
 	}
 	.catch-us {
 		text-decoration: none;
-		font-family: $fos;
 		color: #bface2;
 		font-size: 14px;
 		display: inline-block;
@@ -103,7 +100,6 @@
 			border: 0;
 			border-radius: 2px;
 			margin-bottom: 8%;
-			font-family: $fos;
 			&:nth-child(2) {
 				float: right;
 				display: block;
@@ -115,7 +111,6 @@
 			border: 0;
 			border-radius: 2px;
 			margin-bottom: 8%;
-			font-family: $fos;
 		}
 		button {
 			float: right;
@@ -125,7 +120,6 @@
 			text-transform: uppercase;
 			color: #fff;
 			height: 50px;
-			font-family: $fos;
 			font-size: 22px;
 			border-radius: 4px;
 			cursor: pointer;
