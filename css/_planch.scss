@@ -1,0 +1,40 @@
+@include respond-to(planch) {
+	nav {
+		padding: 22px 5px;
+		top: 20px;
+		left: 10px;
+		right: 10px;
+		br {
+			display: block;
+		}
+	}
+	h1 {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+	.head-section {
+		text-align: center;
+		overflow: hidden;
+		span {
+			font-size: 16px;
+		}
+		.side-list {
+			margin: 80px 0 70px;
+			li {
+				font-size: 12px;
+				&::before {
+					content: '\2602';
+					transform: scale(1,1);
+				}
+			}
+		}
+		img#bigphone {
+			width: 250px;
+			right: -150px;
+		}
+		img#smallphone {
+			width: 250px;
+			left: -145px;
+		}
+	}
+}

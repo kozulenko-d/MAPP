@@ -58,29 +58,33 @@ nav ul li:last-child {
   margin-right: 0;
 }
 /* line 41, _header.scss */
+nav br {
+  display: none;
+}
+/* line 44, _header.scss */
 nav img {
   position: absolute;
   top: 40px;
   left: 37px;
 }
 
-/* line 47, _header.scss */
+/* line 50, _header.scss */
 .head-section {
   background-image: url(../images/headerBG.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
-/* line 52, _header.scss */
+/* line 55, _header.scss */
 .head-section span {
   color: #fff;
   font-size: 22px;
 }
-/* line 56, _header.scss */
+/* line 59, _header.scss */
 .head-section .side-list {
   margin: 90px 0 70px 0;
 }
-/* line 58, _header.scss */
+/* line 61, _header.scss */
 .head-section .side-list li {
   /*list-style-position: inside; – to avoid adding padding-left if there would be list-style-type(:square for example) to make them inside the wrapper*/
   list-style-type: none;
@@ -88,14 +92,14 @@ nav img {
   margin-bottom: 10px;
   font-size: 16px;
 }
-/* line 64, _header.scss */
+/* line 67, _header.scss */
 .head-section .side-list li::before {
   content: '>';
   padding-right: 8px;
   transform: scale(0.7, 1.6);
   display: inline-block;
 }
-/* line 72, _header.scss */
+/* line 75, _header.scss */
 .head-section button {
   cursor: pointer;
   border: 0;
@@ -107,17 +111,17 @@ nav img {
   margin-bottom: 120px;
   transition: all ease 0.4s;
 }
-/* line 82, _header.scss */
+/* line 85, _header.scss */
 .head-section button img {
   float: left;
   margin-right: 15px;
   width: 31px;
 }
-/* line 87, _header.scss */
+/* line 90, _header.scss */
 .head-section button:hover {
   background-color: #07c09c;
 }
-/* line 91, _header.scss */
+/* line 94, _header.scss */
 .head-section img#bigphone {
   position: absolute;
   bottom: -126px;
@@ -125,7 +129,7 @@ nav img {
   z-index: 5;
   width: 390px;
 }
-/* line 98, _header.scss */
+/* line 101, _header.scss */
 .head-section img#smallphone {
   position: absolute;
   bottom: -127px;
@@ -163,7 +167,7 @@ nav img {
     max-width: 90%;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 400px) {
   /* line 28, style.scss */
   .wrapper {
     max-width: 94%;
@@ -851,5 +855,57 @@ h2::after {
   /* line 105, _avS.scss */
   .contacts-section .last-line {
     padding: 25px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 2, _planch.scss */
+  nav {
+    padding: 22px 5px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+  }
+  /* line 7, _planch.scss */
+  nav br {
+    display: block;
+  }
+
+  /* line 11, _planch.scss */
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  /* line 15, _planch.scss */
+  .head-section {
+    text-align: center;
+    overflow: hidden;
+  }
+  /* line 18, _planch.scss */
+  .head-section span {
+    font-size: 16px;
+  }
+  /* line 21, _planch.scss */
+  .head-section .side-list {
+    margin: 80px 0 70px;
+  }
+  /* line 23, _planch.scss */
+  .head-section .side-list li {
+    font-size: 12px;
+  }
+  /* line 25, _planch.scss */
+  .head-section .side-list li::before {
+    content: '\2602';
+    transform: scale(1, 1);
+  }
+  /* line 31, _planch.scss */
+  .head-section img#bigphone {
+    width: 250px;
+    right: -150px;
+  }
+  /* line 35, _planch.scss */
+  .head-section img#smallphone {
+    width: 250px;
+    left: -145px;
   }
 }
