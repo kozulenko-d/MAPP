@@ -869,43 +869,102 @@ h2::after {
   nav br {
     display: block;
   }
+  /* line 10, _planch.scss */
+  nav p {
+    float: left;
+  }
 
-  /* line 11, _planch.scss */
+  /* line 14, _planch.scss */
   h1 {
     font-size: 32px;
     margin-bottom: 10px;
   }
 
-  /* line 15, _planch.scss */
+  /* line 18, _planch.scss */
   .head-section {
     text-align: center;
     overflow: hidden;
   }
-  /* line 18, _planch.scss */
+  /* line 21, _planch.scss */
   .head-section span {
     font-size: 16px;
   }
-  /* line 21, _planch.scss */
+  /* line 24, _planch.scss */
   .head-section .side-list {
     margin: 80px 0 70px;
   }
-  /* line 23, _planch.scss */
+  /* line 26, _planch.scss */
   .head-section .side-list li {
     font-size: 12px;
   }
-  /* line 25, _planch.scss */
+  /* line 28, _planch.scss */
   .head-section .side-list li::before {
     content: '\2602';
     transform: scale(1, 1);
   }
-  /* line 31, _planch.scss */
+  /* line 34, _planch.scss */
   .head-section img#bigphone {
     width: 250px;
     right: -150px;
   }
-  /* line 35, _planch.scss */
+  /* line 38, _planch.scss */
   .head-section img#smallphone {
     width: 250px;
     left: -145px;
+  }
+
+  /* line 44, _planch.scss */
+  .feature-section img:last-child {
+    display: none;
+  }
+  /* line 47, _planch.scss */
+  .feature-section .feature-section__left {
+    width: 48%;
+  }
+  /* line 50, _planch.scss */
+  .feature-section .feature-section__right {
+    width: 48%;
+  }
+
+  /* line 54, _planch.scss */
+  .feature-box img {
+    margin: 0 30px 10px 0;
+  }
+
+  /* line 57, _planch.scss */
+  .team-section {
+    padding: 80px 0 40px;
+  }
+
+  /* line 60, _planch.scss */
+  .team-section-row {
+    margin: 0 -2%;
+  }
+
+  /* line 63, _planch.scss */
+  .team-box {
+    width: 46%;
+  }
+
+  /* line 66, _planch.scss */
+  .customers-say-section {
+    padding: 80px 0 30px;
+  }
+
+  /* line 73, _planch.scss */
+  .slider-window ul li .slide-frame blockquote {
+    font-size: 14px;
+    padding-left: 40px;
+  }
+
+  /* line 82, _planch.scss */
+  .contacts-section .last-line {
+    text-align: center;
+  }
+  /* line 84, _planch.scss */
+  .contacts-section .last-line span:last-child {
+    float: none;
+    display: block;
+    margin-top: 10px;
   }
 }

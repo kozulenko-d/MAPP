@@ -7,6 +7,9 @@
 		br {
 			display: block;
 		}
+		p {
+			float: left;
+		}
 	}
 	h1 {
 		font-size: 32px;
@@ -35,6 +38,54 @@
 		img#smallphone {
 			width: 250px;
 			left: -145px;
+		}
+	}
+	.feature-section {
+		img:last-child {
+			display: none;
+		}
+		.feature-section__left {
+			width: 48%;
+		}
+		.feature-section__right {
+			width: 48%;
+		}
+	}
+	.feature-box img {
+		margin: 0 30px 10px 0;
+	}
+	.team-section {
+		padding: 80px 0 40px;
+	}
+	.team-section-row {
+		margin: 0 -2%;
+	}
+	.team-box {
+		width: 46%;
+	}
+	.customers-say-section {
+		padding: 80px 0 30px;
+	}
+	.slider-window {
+		ul {
+			li {
+				.slide-frame {
+					blockquote {
+						font-size: 14px;
+						padding-left: 40px;
+					}
+				}
+			}
+		}
+	}
+	.contacts-section {
+		.last-line {
+			text-align: center;
+			span:last-child {
+				float: none;
+				display: block;
+				margin-top: 10px;
+			}
 		}
 	}
 }
